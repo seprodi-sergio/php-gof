@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "GameOfLife\\": "classes/GameOfLife/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GameOfLife\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    }
+}
